@@ -6,7 +6,7 @@ spring:
       server:
         git: 
           uri: https://github.com/rollingstoneecomm/rollingstone-ecommerce-remote-cqrs-config-repository
-          searchPaths: rollingstone-ecommerce-account-api-message-producer,rollingstone-ecommerce-account-api-rabbitmq-consumer
+          searchPaths: rollingstone-ecommerce-account-api-message-producer,rollingstone-ecommerce-account-api-rabbitmq-consumer,rollingstone-ecommerce-rabbitmq-fanout-sales-order-api-producer,rollingstone-ecommerce-rabbitmq-fanout-fulfillment-api-consumer,rollingstone-ecommerce-rabbitmq-fanout-finance-api-consumer
           username: rollingstoneecomm
           password: KeepLearning$$1
 management:
